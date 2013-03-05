@@ -24,6 +24,9 @@ gem 'jquery-rails'
 
 group :development, :test do
   gem 'rspec-rails'
+  gem 'rb-fsevent', '~> 0.9.1', :require => false
+  gem 'guard'
+  gem 'guard-rspec'
 end
 
 gem 'thin', '~> 1.5.0'
