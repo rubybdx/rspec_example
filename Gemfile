@@ -29,6 +29,7 @@ group :development, :test do
   gem 'guard-rspec'
   gem 'guard-spork'
   gem 'spork', '~> 1.0rc'
+  gem 'guard-bundler'
 end
 
 gem 'thin', '~> 1.5.0'
