@@ -120,6 +120,10 @@ GEM
     guard-rspec (2.5.0)
       guard (>= 1.1)
       rspec (~> 2.11)
+    guard-spork (1.5.0)
+      childprocess (>= 0.2.3)
+      guard (>= 1.1)
+      spork (>= 0.8.4)
     has_scope (0.5.1)
     highline (1.6.15)
     hike (1.2.1)
@@ -268,6 +272,7 @@ GEM
       websocket (~> 1.0.4)
     simple_oauth (0.1.9)
     slop (3.4.3)
+    spork (1.0.0rc3)
     sprockets (2.2.2)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -326,6 +331,7 @@ DEPENDENCIES
   execjs (~> 1.4.0)
   guard
   guard-rspec
+  guard-spork
   i18n-translators-tools (~> 0.2.4)
   jquery-rails
   meta_request (~> 0.2.1)
@@ -339,6 +345,7 @@ DEPENDENCIES
   rspec-rails
   rvm-capistrano (~> 1.2.7)
   sass-rails (~> 3.2.3)
+  spork (~> 1.0rc)
   sqlite3
   thin (~> 1.5.0)
   twitter (~> 4.2.0)

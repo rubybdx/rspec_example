@@ -27,6 +27,8 @@ group :development, :test do
   gem 'rb-fsevent', '~> 0.9.1', :require => false
   gem 'guard'
   gem 'guard-rspec'
+  gem 'guard-spork'
+  gem 'spork', '~> 1.0rc'
 end
 
 gem 'thin', '~> 1.5.0'
