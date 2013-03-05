@@ -25,6 +25,34 @@ gem 'jquery-rails'
 group :development, :test do
   gem 'rspec-rails'
 end
+
+gem 'thin', '~> 1.5.0'
+gem 'unicorn', '~> 4.5.0'
+gem 'mysql2', '~> 0.3.11'
+gem 'will_paginate', '~> 3.0.3'
+gem 'redis-rails'
+gem 'rmagick', '~> 2.13.1', :require => false
+gem 'twitter', '~> 4.2.0'
+gem 'bitly', '~> 0.8.0'
+gem 'wurfl-lite'
+gem 'rest-client'
+gem 'active_link_to', '~> 1.0.0'
+gem 'activeadmin', '~> 0.5.0'
+gem 'meta_search', '>= 1.1.0.pre'
+gem 'i18n-translators-tools', '~> 0.2.4'
+gem 'capybara', '~> 1.1.2'
+gem 'execjs', '~> 1.4.0'
+
+group :development do
+  gem 'debugger-ruby_core_source', '~> 1.1.6'
+  gem 'debugger', '~> 1.2.3'
+  gem 'rvm-capistrano', '~> 1.2.7'
+  gem 'capistrano', '~> 2.13.4'
+  gem 'meta_request', '~> 0.2.1'
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'awesome_print'
+end
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
